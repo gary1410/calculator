@@ -29,7 +29,7 @@ public class Calculator {
 	// Method signature takes in two paramters
 	public static void divide(double firstNum2, double secondNum2) {
 		//checks to see if secondNum is 0
-		if (secondNum == 0){
+		if (secondNum2 == 0){
 			//prints to console to try again and breaks out of the if statement
 			System.out.println("Can't Divide by 0  Try again:");
 		} else {
@@ -78,7 +78,7 @@ public class Calculator {
 			secondNum = scan.nextDouble();
 			
 			/*this would probably look better in a case statement
-			however lines 82-96 are saying if the command line receives 
+			however lines 83-97 are saying if the command line receives 
 			values 1, 2, 3, 4 then call the respective methods, of add(), subtract(), multiply(), divide() */
 			if (operation == 1) {
 				add(firstNum, secondNum);
