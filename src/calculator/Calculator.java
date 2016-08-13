@@ -19,6 +19,13 @@ public class Calculator {
 			System.out.println("5.  Exit");
 			operation = scan.nextInt();
 			} while (operation < 0 && operation > 5);
+			if (operation < 0 || operation > 5) {
+				System.out.println("Please enter a valid entry (1, 2, 3, 4 or 5)\n");
+			}
+			
+//			if (operation instanceof String) {
+//				System.out.println("Please enter a valid entry (1, 2, 3, 4 or 5)\n");
+//			}
 		
 			if (operation == 1) {
 				System.out.println("Input your first number");
